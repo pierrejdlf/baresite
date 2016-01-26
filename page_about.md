@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Propos
 permalink: /about
 published: true
