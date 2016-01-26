@@ -6,3 +6,4 @@ permalink: /fr
 ---
 
 Bonjour !
+
