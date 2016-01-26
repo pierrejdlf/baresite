@@ -1,10 +1,11 @@
 ---
 layout: page
-title: About
+title: Propos
 permalink: /about/
 published: true
 group: menu
 ---
+
 
 
 
