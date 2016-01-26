@@ -47,8 +47,13 @@
         </header>
       </div>
     </div>
+    
+    {% if page.panorama %}
     <div class="panorama" style="background-image:url('{{ site.baseurl }}/images/{{ page.panorama }}');">
     </div>
+    {% else %}
+    <div class="panorama" style="background-image:url('{{ site.baseurl }}/images/default_panorama.jpg');">
+    {% endif %}
     
     <div id="main" role="main" class="container">
       {{ content }}
