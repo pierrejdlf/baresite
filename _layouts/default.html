@@ -33,12 +33,12 @@
         
         <nav class="now-{{page.url}}">
           <a class="loop" href="{{site.baseurl }}/loop">floop</a>
-        {% if page.lang == 'fr' %}
+        {% if page.lang == 'en' %}
+          <a class="about" href="{{site.baseurl}}/about">about</a>
+          <a class="thedetails" href="{{site.baseurl}}/thedetails">thedetails</a>   
+        {% else %}
           <a class="apropos" href="{{site.baseurl }}/apropos">apropos</a>
           <a class="lesdetails" href="{{site.baseurl}}/lesdetails">lesdetails</a>
-        {% else %}
-          <a class="about" href="{{site.baseurl}}/about">about</a>
-          <a class="thedetails" href="{{site.baseurl}}/thedetails">thedetails</a>     
         {% endif %}
         </nav>
           
