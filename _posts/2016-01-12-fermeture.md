@@ -1,6 +1,6 @@
 ---
 layout: post
-title: fermeture
+title: Fermeture annuelle
 published: true
 ---
 
