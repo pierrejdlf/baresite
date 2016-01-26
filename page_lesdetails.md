@@ -3,8 +3,9 @@ title: Les Détails
 lang: fr
 layout: page
 published: true
-permalink: lesdetails
+permalink: /lesdetails/
 ---
+
 
 
 
