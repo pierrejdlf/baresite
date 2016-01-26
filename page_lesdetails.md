@@ -1,10 +1,11 @@
 ---
 title: Les Détails
 lang: fr
-layout: page
+layout: default
 published: true
 permalink: /lesdetails/
 ---
+
 
 
 
