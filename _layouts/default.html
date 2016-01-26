@@ -30,17 +30,17 @@
             <a href="{{site.baseurl}}/fr">français</a>
             <a href="{{site.baseurl}}/en">english</a>
           </div>
-        <nav>
-        {% for node in site.pages %}
-        {% if node.group == 'menu' %}
-            {% if page.url == node.url %}
-             <a class="active" href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a>
-            {% else %}
-             <a href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a>
-            {% endif %}
+        
+        <nav class="now-{{page.url}}">
+        {% if page.lang == 'fr' %}
+             <a class="apropos" href="{{site.baseurl }}{{node.url}}">apropos</a>
+             <a class="lesdetails" href="{{site.baseurl}}{{node.url}}">lesdetails</a>
+        {% else %}
+             <a class="about" href="{{site.baseurl}}{{node.url}}">about</a>
+             <a class="thedetails" href="{{site.baseurl}}{{node.url}}">thedetails</a>     
         {% endif %}
-  		{% endfor %}
         </nav>
+          
           <!--
           <nav>
             <a href="{{ site.baseurl }}/">Articles</a>
