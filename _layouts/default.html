@@ -30,9 +30,9 @@
         {% for node in site.pages %}
         {% if node.group == 'menu' %}
             {% if page.url == node.url %}
-             <a class="active" href="{{node.url}}">{{node.title}}</a>
+             <a class="active" href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a>
             {% else %}
-             <a href="{{node.url}}">{{node.title}}</a>
+             <a href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a>
             {% endif %}
         {% endif %}
   		{% endfor %}
