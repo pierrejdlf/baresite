@@ -1,8 +1,9 @@
 ---
 lang: en
-permalink: /en
+permalink: /en/
 published: true
 layout: default
 ---
+
 
 Welcome !
