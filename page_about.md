@@ -4,11 +4,8 @@ title: Propos
 permalink: /about/
 published: true
 group: menu
+panorama: tree.jpg
 ---
-
-
-
-
 
 Ce projet a démarré en suivant le guide de la page:
 
@@ -16,10 +13,3 @@ Ce projet a démarré en suivant le guide de la page:
 
 C'est pratique
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
