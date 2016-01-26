@@ -2,8 +2,8 @@
 lang: fr
 layout: default
 published: true
-permalink: /fr
+permalink: /
 ---
 
-Bonjour !
 
+Bonjour !
