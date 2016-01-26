@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Propos
+title: About here
 permalink: /about
 published: true
 group: menu
